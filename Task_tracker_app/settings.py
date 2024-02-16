@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-l^lrr=el59v2&k6g7y%o&v6s89_jrul7*y$mj$urs$m@!tyjhg
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://task-tracker-app-1u0q.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://time-slot-control.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
@@ -64,7 +64,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Task_tracker_app.urls'
 CORS_ORIGIN_ALLOW_ALL = True
-CSRF_TRUSTED_ORIGINS = ['https://task-tracker-app-1u0q.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://time-slot-control.onrender.com']
 
 TEMPLATES = [
     {
